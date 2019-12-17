@@ -145,7 +145,7 @@ pENV<- predict(MRegLM,NEW,interval="prediction")
 pENV
 summary(pENV)
 
-############    KNN
+### KNN
 
 CountryGDP <- as.numeric(EduData$`GDP(in Billions of USD)`)
 CountryGDP <- cut(CountryGDP, br=c(-1,60,2500,17000), labels = c("Bad", 'good', 'best'))
