@@ -28,3 +28,13 @@ We also see that Latin America, Caribbean, Europe and South America show similar
 
  <img src="https://github.com/anishsethi96/Analysis-of-Global-Education-and-Growth-Trends/blob/master/EDA/ScatterAgroVService.png" alt="GVA Sector Analysis" width="500" />
  A scatter of economies between the service and agriculture sector where most regions are in the high service and low agriculture zone.
+
+
+## Conclusions
+The predicted values by the linear model were as expected because of the high correlation of Tertiary Education and value added by the service sector, the clustering of countries according to GDP also had an accuracy of 81.7%.
+Through the scope of this project, I had to look for data from UN that was more detailed than the one I had analyzed initially as that data had values for every 5 years since 1975, which was suitable for exploration and understating the trends but not detailed enough for a thorough analysis. Further I would like to analyze growth and GDP in a more detailed manner, using more models trained on a variety of different factors such as population, demographics, etc to verify my results and gain better knowledge of economics.
+
+The following are the results of the Analysis - 
+  * For countries such as India, China, USA, and Greece there was a significant increase in the predicted GDP with increase in tertiary education.
+  * Syria on the other hand correlated with the Industrial sector and hence did not show a high predicted GDP.
+  * Clustering of data into countries with low, average and high growth based on the education levels of the country was done with an accuracy of 81.7%.
